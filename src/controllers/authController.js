@@ -2,6 +2,7 @@ const User = require("../models/User");
 const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
 const asyncHandler = require("../utils/asyncHandler");
+const logger = require("../utils/logger");
 exports.register = asyncHandler(async (req, res) => {
   const { name, email, password } = req.body;
 
@@ -22,6 +23,7 @@ exports.register = asyncHandler(async (req, res) => {
     email,
     password: hashedPassword,
   });
+  logger.info(`New user registered: ${user.email}`);
   res.status(200).json({ message: "User created", userId: user.id });
 });
 
@@ -31,6 +33,7 @@ exports.login = asyncHandler(async (req, res) => {
     where: { email },
   });
   if (!user) {
+    logger.warn(`Failed login attempt for ${email}`);
     res.status(401).json({
       message: "Invalid credentials",
     });
@@ -38,6 +41,7 @@ exports.login = asyncHandler(async (req, res) => {
   const isMatch = await bcrypt.compare(password, user.password);
 
   if (!isMatch) {
+    logger.warn(`Failed login attempt for ${email}`);
     res.status(401).json({
       message: "Invalid credentials",
     });
@@ -53,6 +57,7 @@ exports.login = asyncHandler(async (req, res) => {
       expiresIn: "1d",
     },
   );
+  logger.info(`User logged in: ${email}`);
   console.log("Token", token);
   res.json({
     token,
