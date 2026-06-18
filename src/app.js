@@ -5,6 +5,9 @@ const cors = require("cors");
 const errorHandler = require("./middlewares/errorHandler");
 const requestLogger = require("./middlewares/requestLogger");
 const authRoutes = require("./routes/authRoutes");
+const swaggerUi = require("swagger-ui-express");
+
+const swaggerSpec = require("./config/swagger");
 
 const app = express();
 
@@ -13,7 +16,13 @@ app.use(cors());
 app.use(express.json());
 app.use(requestLogger);
 app.use("/api/auth", authRoutes);
+app.use(
+  "/api-docs",
 
+  swaggerUi.serve,
+
+  swaggerUi.setup(swaggerSpec),
+);
 app.use(errorHandler);
 
 module.exports = app;

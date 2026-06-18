@@ -26,3 +26,37 @@
 {"level":"info","message":"Server running on port 5000","timestamp":"2026-06-18T15:20:15.007Z"}
 {"level":"info","message":{"ip":"::ffff:127.0.0.1","method":"POST","url":"/api/auth/login"},"timestamp":"2026-06-18T15:20:19.746Z"}
 {"level":"info","message":"User logged in: Amma@gmail.com","timestamp":"2026-06-18T15:20:19.966Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-06-18T15:32:38.660Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-06-18T15:32:38.670Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-06-18T15:32:45.539Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-06-18T15:32:45.548Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-06-18T15:33:43.811Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-06-18T15:33:43.819Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-06-18T15:37:27.098Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-06-18T15:37:27.107Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-06-18T15:38:30.715Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-06-18T15:38:30.728Z"}
+{"level":"info","message":{"ip":"::1","method":"GET","url":"/api-docs/"},"timestamp":"2026-06-18T15:38:33.130Z"}
+{"level":"info","message":{"ip":"::1","method":"GET","url":"/api-docs/swagger-ui.css"},"timestamp":"2026-06-18T15:38:33.183Z"}
+{"level":"info","message":{"ip":"::1","method":"GET","url":"/api-docs/swagger-ui-bundle.js"},"timestamp":"2026-06-18T15:38:33.200Z"}
+{"level":"info","message":{"ip":"::1","method":"GET","url":"/api-docs/swagger-ui-standalone-preset.js"},"timestamp":"2026-06-18T15:38:33.204Z"}
+{"level":"info","message":{"ip":"::1","method":"GET","url":"/api-docs/swagger-ui-init.js"},"timestamp":"2026-06-18T15:38:33.206Z"}
+{"level":"info","message":{"ip":"::1","method":"GET","url":"/api-docs/favicon-32x32.png"},"timestamp":"2026-06-18T15:38:33.972Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-06-18T15:44:09.249Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-06-18T15:44:09.256Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-06-18T15:44:28.708Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-06-18T15:44:28.715Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-06-18T15:51:04.307Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-06-18T15:51:04.317Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-06-18T15:51:46.233Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-06-18T15:51:46.246Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-06-18T15:53:25.298Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-06-18T15:53:25.307Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-06-18T15:53:57.236Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-06-18T15:53:57.246Z"}
+{"level":"info","message":{"ip":"::1","method":"GET","url":"/api-docs/"},"timestamp":"2026-06-18T15:53:58.346Z"}
+{"level":"info","message":{"ip":"::1","method":"GET","url":"/api-docs/swagger-ui.css"},"timestamp":"2026-06-18T15:53:58.392Z"}
+{"level":"info","message":{"ip":"::1","method":"GET","url":"/api-docs/swagger-ui-bundle.js"},"timestamp":"2026-06-18T15:53:58.403Z"}
+{"level":"info","message":{"ip":"::1","method":"GET","url":"/api-docs/swagger-ui-standalone-preset.js"},"timestamp":"2026-06-18T15:53:58.405Z"}
+{"level":"info","message":{"ip":"::1","method":"GET","url":"/api-docs/swagger-ui-init.js"},"timestamp":"2026-06-18T15:53:58.407Z"}
+{"level":"info","message":{"ip":"::1","method":"GET","url":"/api-docs/favicon-32x32.png"},"timestamp":"2026-06-18T15:53:59.912Z"}
