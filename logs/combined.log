@@ -12,3 +12,17 @@
 {"level":"info","message":"Server running on port 5000","timestamp":"2026-06-18T15:06:31.463Z"}
 {"level":"info","message":"Database Connected","timestamp":"2026-06-18T15:07:40.757Z"}
 {"level":"info","message":"Server running on port 5000","timestamp":"2026-06-18T15:07:40.768Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-06-18T15:12:19.407Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-06-18T15:12:19.423Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-06-18T15:12:50.751Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-06-18T15:12:50.764Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-06-18T15:13:35.576Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-06-18T15:13:35.583Z"}
+{"level":"info","message":"User logged in: Amma@gmail.com","timestamp":"2026-06-18T15:14:44.104Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-06-18T15:17:48.219Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-06-18T15:17:48.230Z"}
+{"level":"info","message":"User logged in: Amma@gmail.com","timestamp":"2026-06-18T15:17:55.469Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-06-18T15:20:14.995Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-06-18T15:20:15.007Z"}
+{"level":"info","message":{"ip":"::ffff:127.0.0.1","method":"POST","url":"/api/auth/login"},"timestamp":"2026-06-18T15:20:19.746Z"}
+{"level":"info","message":"User logged in: Amma@gmail.com","timestamp":"2026-06-18T15:20:19.966Z"}
