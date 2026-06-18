@@ -6,9 +6,10 @@ exports.register = async (req, res) => {
   try {
     const { name, email, password } = req.body;
 
-    const existingUser = User.findOne({
+    const existingUser = await User.findOne({
       where: { email },
     });
+
     if (existingUser) {
       res.status(400).json({
         message: "User already exist",
@@ -52,15 +53,15 @@ exports.login = async (req, res) => {
         id: user.id,
         email: user.email,
       },
-      process.env.JWT_SCERET,
+      process.env.JWT_SECRET,
       {
         expiresIn: "1d",
       },
     );
-    (res,
-      json({
-        token,
-      }));
+    console.log("Token", token);
+    res.json({
+      token,
+    });
   } catch (error) {
     res.status(500).json({ message: error.message });
   }
