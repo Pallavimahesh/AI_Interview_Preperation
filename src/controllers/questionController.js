@@ -6,3 +6,9 @@ exports.createQuestion = asyncHandler(async (req, res) => {
   logger.info(`Question created`);
   res.status(201).json(question);
 });
+
+exports.getQuestions = asyncHandler(async (req, res) => {
+  const questions = await Question.findAll();
+
+  res.json(questions);
+});

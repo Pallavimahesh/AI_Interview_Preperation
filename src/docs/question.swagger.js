@@ -45,3 +45,21 @@
  *       400:
  *         description: Validation error
  */
+
+/**
+ * @swagger
+ * /api/questions:
+ *   get:
+ *     summary: Fetch all questions
+ *     tags:
+ *       - Questions
+ *     security:
+ *       - bearerAuth: []
+ *     responses:
+ *       200:
+ *         description: List of questions retrieved successfully
+ *       401:
+ *         description: Unauthorized
+ *       500:
+ *         description: Internal server error
+ */

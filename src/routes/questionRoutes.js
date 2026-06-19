@@ -4,7 +4,10 @@ const validate = require("../middlewares/validate");
 const router = express.Router();
 const authMiddleware = require("../middlewares/authMiddleware");
 console.log(authMiddleware);
-const { createQuestion } = require("../controllers/questionController");
+const {
+  createQuestion,
+  getQuestions,
+} = require("../controllers/questionController");
 console.log("createQuestion:", createQuestion);
 router.post(
   "/questions",
@@ -13,4 +16,5 @@ router.post(
   validate,
   createQuestion,
 );
+router.get("/questions", getQuestions);
 module.exports = router;
