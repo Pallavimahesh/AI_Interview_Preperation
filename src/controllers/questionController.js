@@ -10,6 +10,10 @@ exports.createQuestion = asyncHandler(async (req, res) => {
 
 exports.getQuestions = asyncHandler(async (req, res) => {
   const { skill, difficulty } = req.query;
+  const page = parseInt(req.query.page) || 1;
+  const limit = parseInt(req.query.limit) || 10;
+
+  const offset = (page - 1) * limit;
 
   let where = {};
 
@@ -20,9 +24,13 @@ exports.getQuestions = asyncHandler(async (req, res) => {
   if (difficulty) {
     where.difficulty = difficulty;
   }
-  const questions = await Question.findAll({ where });
-
-  res.status(200).json(questions);
+  const questions = await Question.findAndCountAll({ where, limit, offset });
+  res.status(200).json({
+    totalItems: questions.count,
+    totalPages: Math.ceil(questions.count / limit),
+    currentPage: page,
+    data: questions.rows,
+  });
 });
 
 exports.getQuestionById = asyncHandler(async (req, res) => {

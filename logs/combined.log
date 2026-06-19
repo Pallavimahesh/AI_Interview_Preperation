@@ -265,3 +265,45 @@
 {"level":"info","message":{"ip":"::1","method":"GET","url":"/api/questions"},"timestamp":"2026-06-19T11:32:02.900Z"}
 {"level":"info","message":"Database Connected","timestamp":"2026-06-19T11:54:56.380Z"}
 {"level":"info","message":"Server running on port 5000","timestamp":"2026-06-19T11:54:56.390Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-06-19T11:57:12.801Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-06-19T11:57:12.810Z"}
+{"level":"info","message":{"ip":"::1","method":"GET","url":"/api-docs/"},"timestamp":"2026-06-19T11:57:22.308Z"}
+{"level":"info","message":{"ip":"::1","method":"GET","url":"/api-docs/swagger-ui.css"},"timestamp":"2026-06-19T11:57:22.352Z"}
+{"level":"info","message":{"ip":"::1","method":"GET","url":"/api-docs/swagger-ui-standalone-preset.js"},"timestamp":"2026-06-19T11:57:22.357Z"}
+{"level":"info","message":{"ip":"::1","method":"GET","url":"/api-docs/swagger-ui-bundle.js"},"timestamp":"2026-06-19T11:57:22.358Z"}
+{"level":"info","message":{"ip":"::1","method":"GET","url":"/api-docs/swagger-ui-init.js"},"timestamp":"2026-06-19T11:57:22.382Z"}
+{"level":"info","message":{"ip":"::1","method":"GET","url":"/api/questions?skill=NodeJS&difficulty=Medium"},"timestamp":"2026-06-19T11:58:22.955Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-06-19T12:03:59.358Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-06-19T12:03:59.368Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-06-19T12:07:37.217Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-06-19T12:07:37.224Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-06-19T12:09:14.766Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-06-19T12:09:14.776Z"}
+{"level":"info","message":{"ip":"::1","method":"GET","url":"/api-docs/"},"timestamp":"2026-06-19T12:09:25.932Z"}
+{"level":"info","message":{"ip":"::1","method":"GET","url":"/api-docs/swagger-ui.css"},"timestamp":"2026-06-19T12:09:25.967Z"}
+{"level":"info","message":{"ip":"::1","method":"GET","url":"/api-docs/swagger-ui-bundle.js"},"timestamp":"2026-06-19T12:09:25.973Z"}
+{"level":"info","message":{"ip":"::1","method":"GET","url":"/api-docs/swagger-ui-standalone-preset.js"},"timestamp":"2026-06-19T12:09:25.975Z"}
+{"level":"info","message":{"ip":"::1","method":"GET","url":"/api-docs/swagger-ui-init.js"},"timestamp":"2026-06-19T12:09:25.982Z"}
+{"level":"info","message":{"ip":"::1","method":"POST","url":"/api/auth/login"},"timestamp":"2026-06-19T12:10:22.753Z"}
+{"level":"info","message":"User logged in: Dhanvi@gmail.com","timestamp":"2026-06-19T12:10:23.028Z"}
+{"level":"info","message":{"ip":"::1","method":"GET","url":"/api-docs/"},"timestamp":"2026-06-19T12:12:34.653Z"}
+{"level":"info","message":{"ip":"::1","method":"GET","url":"/api-docs/swagger-ui.css"},"timestamp":"2026-06-19T12:12:34.694Z"}
+{"level":"info","message":{"ip":"::1","method":"GET","url":"/api-docs/swagger-ui-bundle.js"},"timestamp":"2026-06-19T12:12:34.698Z"}
+{"level":"info","message":{"ip":"::1","method":"GET","url":"/api-docs/swagger-ui-standalone-preset.js"},"timestamp":"2026-06-19T12:12:34.701Z"}
+{"level":"info","message":{"ip":"::1","method":"GET","url":"/api-docs/swagger-ui-init.js"},"timestamp":"2026-06-19T12:12:34.722Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-06-19T12:13:49.667Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-06-19T12:13:49.676Z"}
+{"level":"info","message":{"ip":"::1","method":"GET","url":"/api-docs/"},"timestamp":"2026-06-19T12:13:54.966Z"}
+{"level":"info","message":{"ip":"::1","method":"GET","url":"/api-docs/swagger-ui.css"},"timestamp":"2026-06-19T12:13:55.030Z"}
+{"level":"info","message":{"ip":"::1","method":"GET","url":"/api-docs/swagger-ui-bundle.js"},"timestamp":"2026-06-19T12:13:55.038Z"}
+{"level":"info","message":{"ip":"::1","method":"GET","url":"/api-docs/swagger-ui-standalone-preset.js"},"timestamp":"2026-06-19T12:13:55.042Z"}
+{"level":"info","message":{"ip":"::1","method":"GET","url":"/api-docs/swagger-ui-init.js"},"timestamp":"2026-06-19T12:13:55.046Z"}
+{"level":"info","message":{"ip":"::1","method":"GET","url":"/api-docs/favicon-32x32.png"},"timestamp":"2026-06-19T12:13:56.177Z"}
+{"level":"info","message":{"ip":"::1","method":"GET","url":"/api/questions?skill=NodeJS&difficulty=Medium&page=1&limit=10"},"timestamp":"2026-06-19T12:14:13.857Z"}
+{"level":"error","message":"res.atatus is not a function","method":"GET","route":"/api/questions?skill=NodeJS&difficulty=Medium&page=1&limit=10","stack":"TypeError: res.atatus is not a function\n    at C:\\Users\\Hp\\Desktop\\Pallavi\\Ai_interview_preperaton\\ai_interview_prep_backend\\src\\controllers\\questionController.js:28:7\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)","timestamp":"2026-06-19T12:14:13.924Z"}
+{"level":"info","message":{"ip":"::1","method":"POST","url":"/api/auth/login"},"timestamp":"2026-06-19T12:15:07.525Z"}
+{"level":"info","message":"User logged in: Dhanvi@gmail.com","timestamp":"2026-06-19T12:15:07.783Z"}
+{"level":"info","message":{"ip":"::1","method":"GET","url":"/api/questions?skill=NodeJS&difficulty=Medium&page=1&limit=10"},"timestamp":"2026-06-19T12:15:59.318Z"}
+{"level":"error","message":"res.atatus is not a function","method":"GET","route":"/api/questions?skill=NodeJS&difficulty=Medium&page=1&limit=10","stack":"TypeError: res.atatus is not a function\n    at C:\\Users\\Hp\\Desktop\\Pallavi\\Ai_interview_preperaton\\ai_interview_prep_backend\\src\\controllers\\questionController.js:28:7\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)","timestamp":"2026-06-19T12:15:59.336Z"}
+{"level":"info","message":{"ip":"::1","method":"GET","url":"/api/questions?difficulty=Medium"},"timestamp":"2026-06-19T12:16:19.916Z"}
+{"level":"error","message":"res.atatus is not a function","method":"GET","route":"/api/questions?difficulty=Medium","stack":"TypeError: res.atatus is not a function\n    at C:\\Users\\Hp\\Desktop\\Pallavi\\Ai_interview_preperaton\\ai_interview_prep_backend\\src\\controllers\\questionController.js:28:7\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)","timestamp":"2026-06-19T12:16:19.932Z"}

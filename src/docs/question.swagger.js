@@ -50,7 +50,7 @@
  * @swagger
  * /api/questions:
  *   get:
- *     summary: Get questions with optional filters
+ *     summary: Get questions with optional filters and pagination
  *     tags:
  *       - Questions
  *     security:
@@ -63,6 +63,7 @@
  *           type: string
  *         description: Filter questions by skill
  *         example: NodeJS
+ *
  *       - in: query
  *         name: difficulty
  *         required: false
@@ -74,34 +75,70 @@
  *             - Hard
  *         description: Filter questions by difficulty
  *         example: Medium
+ *
+ *       - in: query
+ *         name: page
+ *         required: false
+ *         schema:
+ *           type: integer
+ *           default: 1
+ *         description: Page number
+ *
+ *       - in: query
+ *         name: limit
+ *         required: false
+ *         schema:
+ *           type: integer
+ *           default: 10
+ *         description: Number of records per page
+ *
  *     responses:
  *       200:
  *         description: Questions retrieved successfully
  *         content:
  *           application/json:
  *             schema:
- *               type: array
- *               items:
- *                 type: object
- *                 properties:
- *                   id:
- *                     type: integer
- *                     example: 1
- *                   title:
- *                     type: string
- *                     example: What is JWT?
- *                   skill:
- *                     type: string
- *                     example: NodeJS
- *                   difficulty:
- *                     type: string
- *                     example: Medium
+ *               type: object
+ *               properties:
+ *                 totalItems:
+ *                   type: integer
+ *                   example: 25
+ *                 totalPages:
+ *                   type: integer
+ *                   example: 3
+ *                 currentPage:
+ *                   type: integer
+ *                   example: 1
+ *                 data:
+ *                   type: array
+ *                   items:
+ *                     type: object
+ *                     properties:
+ *                       id:
+ *                         type: integer
+ *                         example: 1
+ *                       title:
+ *                         type: string
+ *                         example: What is JWT?
+ *                       description:
+ *                         type: string
+ *                         example: Explain JWT
+ *                       skill:
+ *                         type: string
+ *                         example: NodeJS
+ *                       difficulty:
+ *                         type: string
+ *                         example: Medium
+ *                       correct_answer:
+ *                         type: string
+ *                         example: JWT is a stateless token
+ *
  *       401:
  *         description: Unauthorized
+ *
  *       500:
  *         description: Internal server error
  */
-
 /**
  * @swagger
  * /api/questions/{id}:
