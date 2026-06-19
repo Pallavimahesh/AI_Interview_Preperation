@@ -6,5 +6,11 @@ const authMiddleware = require("../middlewares/authMiddleware");
 console.log(authMiddleware);
 const { createQuestion } = require("../controllers/questionController");
 console.log("createQuestion:", createQuestion);
-router.post("/", authMiddleware, questonValidation, validate, createQuestion);
+router.post(
+  "/questions",
+  authMiddleware,
+  questonValidation,
+  validate,
+  createQuestion,
+);
 module.exports = router;
