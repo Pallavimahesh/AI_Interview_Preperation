@@ -10,5 +10,17 @@ exports.createQuestion = asyncHandler(async (req, res) => {
 exports.getQuestions = asyncHandler(async (req, res) => {
   const questions = await Question.findAll();
 
-  res.json(questions);
+  res.status(200).json(questions);
+});
+
+exports.getQuestionById = asyncHandler(async (req, res) => {
+  const question = await Question.findByPk(req.params.id);
+
+  if (!question) {
+    return res.status(404).json({
+      message: "Question not found",
+    });
+  }
+
+  res.status(200).json(question);
 });

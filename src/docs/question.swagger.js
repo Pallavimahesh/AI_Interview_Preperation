@@ -63,3 +63,29 @@
  *       500:
  *         description: Internal server error
  */
+
+/**
+ * @swagger
+ * /api/questions/{id}:
+ *   get:
+ *     summary: Get question by id
+ *     tags:
+ *       - Questions
+ *     security:
+ *       - bearerAuth: []
+ *     parameters:
+ *       - in: path
+ *         name: id
+ *         required: true
+ *         schema:
+ *           type: integer
+ *         description: Question ID
+ *         example: 1
+ *     responses:
+ *       200:
+ *         description: question retrieved successfully
+ *       401:
+ *         description: Unauthorized
+ *       500:
+ *         description: Internal server error
+ */

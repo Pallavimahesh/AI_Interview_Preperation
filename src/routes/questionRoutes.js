@@ -7,6 +7,7 @@ console.log(authMiddleware);
 const {
   createQuestion,
   getQuestions,
+  getQuestionById,
 } = require("../controllers/questionController");
 console.log("createQuestion:", createQuestion);
 router.post(
@@ -17,4 +18,5 @@ router.post(
   createQuestion,
 );
 router.get("/questions", getQuestions);
+router.get("/questions/:id", getQuestionById);
 module.exports = router;
