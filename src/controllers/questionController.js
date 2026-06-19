@@ -24,3 +24,16 @@ exports.getQuestionById = asyncHandler(async (req, res) => {
 
   res.status(200).json(question);
 });
+exports.updateQuestion = asyncHandler(async (req, res) => {
+  const question = await Question.findByPk(req.params.id);
+
+  if (!question) {
+    return res.status(404).json({
+      message: "Question not found",
+    });
+  }
+
+  await question.update(req.body);
+
+  res.json(question);
+});

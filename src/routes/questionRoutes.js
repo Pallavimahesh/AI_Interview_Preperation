@@ -8,6 +8,7 @@ const {
   createQuestion,
   getQuestions,
   getQuestionById,
+  updateQuestion,
 } = require("../controllers/questionController");
 console.log("createQuestion:", createQuestion);
 router.post(
@@ -19,4 +20,5 @@ router.post(
 );
 router.get("/questions", getQuestions);
 router.get("/questions/:id", getQuestionById);
+router.patch("/questions/:id", updateQuestion);
 module.exports = router;

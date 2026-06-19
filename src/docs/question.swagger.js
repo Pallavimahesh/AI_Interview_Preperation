@@ -89,3 +89,44 @@
  *       500:
  *         description: Internal server error
  */
+
+/**
+ * @swagger
+ * /api/questions/{id}:
+ *   patch:
+ *     summary: Update a question
+ *     tags:
+ *       - Questions
+ *     security:
+ *       - bearerAuth: []
+ *     parameters:
+ *       - in: path
+ *         name: id
+ *         required: true
+ *         schema:
+ *           type: integer
+ *         example: 1
+ *     requestBody:
+ *       required: true
+ *       content:
+ *         application/json:
+ *           schema:
+ *             type: object
+ *             properties:
+ *               title:
+ *                 type: string
+ *               description:
+ *                 type: string
+ *               skill:
+ *                 type: string
+ *               difficulty:
+ *                 type: string
+ *                 enum: [Easy, Medium, Hard]
+ *               correct_answer:
+ *                 type: string
+ *     responses:
+ *       200:
+ *         description: Question updated successfully
+ *       404:
+ *         description: Question not found
+ */
