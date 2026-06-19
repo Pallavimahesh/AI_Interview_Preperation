@@ -121,3 +121,64 @@
 {"level":"info","message":"Server running on port 5000","timestamp":"2026-06-19T07:17:34.374Z"}
 {"level":"info","message":"Database Connected","timestamp":"2026-06-19T07:17:54.484Z"}
 {"level":"info","message":"Server running on port 5000","timestamp":"2026-06-19T07:17:54.500Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-06-19T07:21:25.907Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-06-19T07:21:25.920Z"}
+{"level":"info","message":{"ip":"::1","method":"GET","url":"/api-docs/"},"timestamp":"2026-06-19T07:21:34.270Z"}
+{"level":"info","message":{"ip":"::1","method":"GET","url":"/api-docs/swagger-ui.css"},"timestamp":"2026-06-19T07:21:34.353Z"}
+{"level":"info","message":{"ip":"::1","method":"GET","url":"/api-docs/swagger-ui-bundle.js"},"timestamp":"2026-06-19T07:21:34.364Z"}
+{"level":"info","message":{"ip":"::1","method":"GET","url":"/api-docs/swagger-ui-standalone-preset.js"},"timestamp":"2026-06-19T07:21:34.368Z"}
+{"level":"info","message":{"ip":"::1","method":"GET","url":"/api-docs/swagger-ui-init.js"},"timestamp":"2026-06-19T07:21:34.372Z"}
+{"level":"info","message":{"ip":"::1","method":"POST","url":"/api/questions"},"timestamp":"2026-06-19T07:25:13.970Z"}
+{"level":"info","message":{"ip":"::1","method":"POST","url":"/api/auth/login"},"timestamp":"2026-06-19T07:26:02.153Z"}
+{"level":"info","message":"User logged in: amma@gmail.com","timestamp":"2026-06-19T07:26:02.419Z"}
+{"level":"info","message":{"ip":"::1","method":"POST","url":"/api/questions"},"timestamp":"2026-06-19T07:26:29.501Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-06-19T07:30:49.728Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-06-19T07:30:49.736Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-06-19T07:31:17.702Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-06-19T07:31:17.711Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-06-19T07:33:05.009Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-06-19T07:33:05.015Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-06-19T07:33:25.867Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-06-19T07:33:25.875Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-06-19T10:24:52.090Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-06-19T10:24:52.101Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-06-19T10:26:24.036Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-06-19T10:26:24.044Z"}
+{"level":"info","message":{"ip":"::1","method":"GET","url":"/api-docs/"},"timestamp":"2026-06-19T10:26:59.282Z"}
+{"level":"info","message":{"ip":"::1","method":"GET","url":"/api-docs/swagger-ui.css"},"timestamp":"2026-06-19T10:26:59.339Z"}
+{"level":"info","message":{"ip":"::1","method":"GET","url":"/api-docs/swagger-ui-bundle.js"},"timestamp":"2026-06-19T10:26:59.352Z"}
+{"level":"info","message":{"ip":"::1","method":"GET","url":"/api-docs/swagger-ui-standalone-preset.js"},"timestamp":"2026-06-19T10:26:59.354Z"}
+{"level":"info","message":{"ip":"::1","method":"GET","url":"/api-docs/swagger-ui-init.js"},"timestamp":"2026-06-19T10:26:59.358Z"}
+{"level":"info","message":{"ip":"::1","method":"POST","url":"/api/questions"},"timestamp":"2026-06-19T10:28:08.172Z"}
+{"level":"info","message":{"ip":"::1","method":"GET","url":"/api-docs/"},"timestamp":"2026-06-19T10:30:34.372Z"}
+{"level":"info","message":{"ip":"::1","method":"GET","url":"/api-docs/swagger-ui.css"},"timestamp":"2026-06-19T10:30:34.439Z"}
+{"level":"info","message":{"ip":"::1","method":"GET","url":"/api-docs/swagger-ui-bundle.js"},"timestamp":"2026-06-19T10:30:34.458Z"}
+{"level":"info","message":{"ip":"::1","method":"GET","url":"/api-docs/swagger-ui-standalone-preset.js"},"timestamp":"2026-06-19T10:30:34.463Z"}
+{"level":"info","message":{"ip":"::1","method":"GET","url":"/api-docs/swagger-ui-init.js"},"timestamp":"2026-06-19T10:30:34.485Z"}
+{"level":"info","message":{"ip":"::1","method":"GET","url":"/api-docs/favicon-32x32.png"},"timestamp":"2026-06-19T10:30:36.765Z"}
+{"level":"info","message":{"ip":"::1","method":"GET","url":"/api-docs/"},"timestamp":"2026-06-19T10:30:44.109Z"}
+{"level":"info","message":{"ip":"::1","method":"GET","url":"/api-docs/swagger-ui.css"},"timestamp":"2026-06-19T10:30:44.144Z"}
+{"level":"info","message":{"ip":"::1","method":"GET","url":"/api-docs/swagger-ui-bundle.js"},"timestamp":"2026-06-19T10:30:44.147Z"}
+{"level":"info","message":{"ip":"::1","method":"GET","url":"/api-docs/swagger-ui-standalone-preset.js"},"timestamp":"2026-06-19T10:30:44.151Z"}
+{"level":"info","message":{"ip":"::1","method":"GET","url":"/api-docs/swagger-ui-init.js"},"timestamp":"2026-06-19T10:30:44.167Z"}
+{"level":"info","message":{"ip":"::1","method":"POST","url":"/api/auth/login"},"timestamp":"2026-06-19T10:31:48.697Z"}
+{"level":"info","message":"User logged in: amma@gmail.com","timestamp":"2026-06-19T10:31:48.905Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-06-19T10:36:46.838Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-06-19T10:36:46.849Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-06-19T10:37:53.156Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-06-19T10:37:53.166Z"}
+{"level":"info","message":{"ip":"::1","method":"GET","url":"/api-docs/"},"timestamp":"2026-06-19T10:38:04.350Z"}
+{"level":"info","message":{"ip":"::1","method":"GET","url":"/api-docs/swagger-ui.css"},"timestamp":"2026-06-19T10:38:04.382Z"}
+{"level":"info","message":{"ip":"::1","method":"GET","url":"/api-docs/swagger-ui-bundle.js"},"timestamp":"2026-06-19T10:38:04.388Z"}
+{"level":"info","message":{"ip":"::1","method":"GET","url":"/api-docs/swagger-ui-standalone-preset.js"},"timestamp":"2026-06-19T10:38:04.390Z"}
+{"level":"info","message":{"ip":"::1","method":"GET","url":"/api-docs/swagger-ui-init.js"},"timestamp":"2026-06-19T10:38:04.404Z"}
+{"level":"info","message":{"ip":"::1","method":"POST","url":"/api/auth/login"},"timestamp":"2026-06-19T10:39:20.304Z"}
+{"level":"warn","message":"Failed login attempt for amma@gmail.com","timestamp":"2026-06-19T10:39:20.517Z"}
+{"level":"info","message":"User logged in: amma@gmail.com","timestamp":"2026-06-19T10:39:20.527Z"}
+{"level":"error","message":"Cannot set headers after they are sent to the client","method":"POST","route":"/api/auth/login","stack":"Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:647:11)\n    at ServerResponse.header (C:\\Users\\Hp\\Desktop\\Pallavi\\Ai_interview_preperaton\\ai_interview_prep_backend\\node_modules\\express\\lib\\response.js:686:10)\n    at ServerResponse.send (C:\\Users\\Hp\\Desktop\\Pallavi\\Ai_interview_preperaton\\ai_interview_prep_backend\\node_modules\\express\\lib\\response.js:163:12)\n    at ServerResponse.json (C:\\Users\\Hp\\Desktop\\Pallavi\\Ai_interview_preperaton\\ai_interview_prep_backend\\node_modules\\express\\lib\\response.js:252:15)\n    at C:\\Users\\Hp\\Desktop\\Pallavi\\Ai_interview_preperaton\\ai_interview_prep_backend\\src\\controllers\\authController.js:62:7","timestamp":"2026-06-19T10:39:20.529Z"}
+{"level":"info","message":{"ip":"::1","method":"POST","url":"/api/auth/login"},"timestamp":"2026-06-19T10:39:29.778Z"}
+{"level":"info","message":"User logged in: amma@gmail.com","timestamp":"2026-06-19T10:39:29.942Z"}
+{"level":"info","message":{"ip":"::1","method":"GET","url":"/api/auth/profile"},"timestamp":"2026-06-19T10:40:05.979Z"}
+{"level":"info","message":{"ip":"::1","method":"GET","url":"/api/auth/profile"},"timestamp":"2026-06-19T10:40:50.055Z"}
+{"level":"info","message":{"ip":"::1","method":"POST","url":"/api/questions"},"timestamp":"2026-06-19T10:41:43.934Z"}
+{"level":"info","message":"Question created","timestamp":"2026-06-19T10:41:43.990Z"}

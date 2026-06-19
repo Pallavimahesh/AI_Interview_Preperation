@@ -5,6 +5,8 @@
  *     summary: Create a new question
  *     tags:
  *       - Questions
+ *     security:
+ *       - bearerAuth: []
  *     requestBody:
  *       required: true
  *       content:
@@ -29,7 +31,10 @@
  *                 example: NodeJS
  *               difficulty:
  *                 type: string
- *                 enum: [Easy, Medium, Hard]
+ *                 enum:
+ *                   - Easy
+ *                   - Medium
+ *                   - Hard
  *                 example: Medium
  *               correct_answer:
  *                 type: string
