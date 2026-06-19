@@ -1,5 +1,6 @@
 const Question = require("../models/Question");
 const asyncHandler = require("../utils/asyncHandler");
+const { Op } = require("sequelize");
 const logger = require("../utils/logger");
 exports.createQuestion = asyncHandler(async (req, res) => {
   const question = await Question.create(req.body);
@@ -8,7 +9,18 @@ exports.createQuestion = asyncHandler(async (req, res) => {
 });
 
 exports.getQuestions = asyncHandler(async (req, res) => {
-  const questions = await Question.findAll();
+  const { skill, difficulty } = req.query;
+
+  let where = {};
+
+  if (skill) {
+    where.skill = skill;
+  }
+
+  if (difficulty) {
+    where.difficulty = difficulty;
+  }
+  const questions = await Question.findAll({ where });
 
   res.status(200).json(questions);
 });

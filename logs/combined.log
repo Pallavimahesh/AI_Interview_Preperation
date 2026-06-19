@@ -253,3 +253,15 @@
 {"level":"info","message":"Server running on port 5000","timestamp":"2026-06-19T11:27:42.130Z"}
 {"level":"info","message":"Database Connected","timestamp":"2026-06-19T11:28:16.983Z"}
 {"level":"info","message":"Server running on port 5000","timestamp":"2026-06-19T11:28:16.992Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-06-19T11:29:41.918Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-06-19T11:29:41.930Z"}
+{"level":"info","message":{"ip":"::1","method":"GET","url":"/api-docs/"},"timestamp":"2026-06-19T11:30:20.159Z"}
+{"level":"info","message":{"ip":"::1","method":"GET","url":"/api-docs/swagger-ui.css"},"timestamp":"2026-06-19T11:30:20.187Z"}
+{"level":"info","message":{"ip":"::1","method":"GET","url":"/api-docs/swagger-ui-bundle.js"},"timestamp":"2026-06-19T11:30:20.194Z"}
+{"level":"info","message":{"ip":"::1","method":"GET","url":"/api-docs/swagger-ui-standalone-preset.js"},"timestamp":"2026-06-19T11:30:20.196Z"}
+{"level":"info","message":{"ip":"::1","method":"GET","url":"/api-docs/swagger-ui-init.js"},"timestamp":"2026-06-19T11:30:20.205Z"}
+{"level":"info","message":{"ip":"::1","method":"DELETE","url":"/api/questions/2"},"timestamp":"2026-06-19T11:30:31.951Z"}
+{"level":"info","message":{"ip":"::1","method":"GET","url":"/api/auth/profile"},"timestamp":"2026-06-19T11:30:44.391Z"}
+{"level":"info","message":{"ip":"::1","method":"GET","url":"/api/questions"},"timestamp":"2026-06-19T11:32:02.900Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-06-19T11:54:56.380Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-06-19T11:54:56.390Z"}

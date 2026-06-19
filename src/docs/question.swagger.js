@@ -50,14 +50,52 @@
  * @swagger
  * /api/questions:
  *   get:
- *     summary: Fetch all questions
+ *     summary: Get questions with optional filters
  *     tags:
  *       - Questions
  *     security:
  *       - bearerAuth: []
+ *     parameters:
+ *       - in: query
+ *         name: skill
+ *         required: false
+ *         schema:
+ *           type: string
+ *         description: Filter questions by skill
+ *         example: NodeJS
+ *       - in: query
+ *         name: difficulty
+ *         required: false
+ *         schema:
+ *           type: string
+ *           enum:
+ *             - Easy
+ *             - Medium
+ *             - Hard
+ *         description: Filter questions by difficulty
+ *         example: Medium
  *     responses:
  *       200:
- *         description: List of questions retrieved successfully
+ *         description: Questions retrieved successfully
+ *         content:
+ *           application/json:
+ *             schema:
+ *               type: array
+ *               items:
+ *                 type: object
+ *                 properties:
+ *                   id:
+ *                     type: integer
+ *                     example: 1
+ *                   title:
+ *                     type: string
+ *                     example: What is JWT?
+ *                   skill:
+ *                     type: string
+ *                     example: NodeJS
+ *                   difficulty:
+ *                     type: string
+ *                     example: Medium
  *       401:
  *         description: Unauthorized
  *       500:
