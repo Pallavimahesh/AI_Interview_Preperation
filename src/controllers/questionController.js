@@ -37,3 +37,19 @@ exports.updateQuestion = asyncHandler(async (req, res) => {
 
   res.json(question);
 });
+
+exports.deleteQuestion = asyncHandler(async (req, res) => {
+  const question = await Question.findByPk(req.params.id);
+
+  if (!question) {
+    return res.status(404).json({
+      message: "Question not found",
+    });
+  }
+
+  await question.destroy();
+
+  res.json({
+    message: "Deleted successfully",
+  });
+});

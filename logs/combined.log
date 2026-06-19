@@ -249,3 +249,7 @@
 {"level":"info","message":{"ip":"::1","method":"GET","url":"/api-docs/swagger-ui-init.js"},"timestamp":"2026-06-19T11:22:03.951Z"}
 {"level":"info","message":{"ip":"::1","method":"GET","url":"/api-docs/favicon-32x32.png"},"timestamp":"2026-06-19T11:22:06.330Z"}
 {"level":"info","message":{"ip":"::1","method":"PATCH","url":"/api/questions/2"},"timestamp":"2026-06-19T11:23:07.948Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-06-19T11:27:42.122Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-06-19T11:27:42.130Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-06-19T11:28:16.983Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-06-19T11:28:16.992Z"}
