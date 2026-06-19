@@ -1,22 +1,7 @@
-/**
- * @swagger
- * /api/auth/register:
- *   post:
- *     summary:
- *       Register a user
- *     tags:
- *       - Auth
- *     requestBody:
- *       required: true
- *     responses:
- *       201:
- *         description:
- *           User registered
- */
 const express = require("express");
 const loginLimiter = require("../middlewares/rateLimiter");
 const router = express.Router();
-const asyncHandler = require("../utils/asyncHandler");
+
 const {
   registerValidation,
   loginValidation,

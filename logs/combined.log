@@ -60,3 +60,52 @@
 {"level":"info","message":{"ip":"::1","method":"GET","url":"/api-docs/swagger-ui-standalone-preset.js"},"timestamp":"2026-06-18T15:53:58.405Z"}
 {"level":"info","message":{"ip":"::1","method":"GET","url":"/api-docs/swagger-ui-init.js"},"timestamp":"2026-06-18T15:53:58.407Z"}
 {"level":"info","message":{"ip":"::1","method":"GET","url":"/api-docs/favicon-32x32.png"},"timestamp":"2026-06-18T15:53:59.912Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-06-18T15:56:28.167Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-06-18T15:56:28.176Z"}
+{"level":"info","message":{"ip":"::1","method":"GET","url":"/api-docs/"},"timestamp":"2026-06-18T15:56:28.869Z"}
+{"level":"info","message":{"ip":"::1","method":"GET","url":"/api-docs/swagger-ui.css"},"timestamp":"2026-06-18T15:56:28.920Z"}
+{"level":"info","message":{"ip":"::1","method":"GET","url":"/api-docs/swagger-ui-bundle.js"},"timestamp":"2026-06-18T15:56:28.923Z"}
+{"level":"info","message":{"ip":"::1","method":"GET","url":"/api-docs/swagger-ui-standalone-preset.js"},"timestamp":"2026-06-18T15:56:28.929Z"}
+{"level":"info","message":{"ip":"::1","method":"GET","url":"/api-docs/swagger-ui-init.js"},"timestamp":"2026-06-18T15:56:28.936Z"}
+{"level":"info","message":{"ip":"::1","method":"GET","url":"/api-docs/favicon-32x32.png"},"timestamp":"2026-06-18T15:56:29.649Z"}
+{"level":"info","message":{"ip":"::1","method":"GET","url":"/api-docs/"},"timestamp":"2026-06-18T15:56:33.557Z"}
+{"level":"info","message":{"ip":"::1","method":"GET","url":"/api-docs/swagger-ui.css"},"timestamp":"2026-06-18T15:56:33.605Z"}
+{"level":"info","message":{"ip":"::1","method":"GET","url":"/api-docs/swagger-ui-bundle.js"},"timestamp":"2026-06-18T15:56:33.610Z"}
+{"level":"info","message":{"ip":"::1","method":"GET","url":"/api-docs/swagger-ui-standalone-preset.js"},"timestamp":"2026-06-18T15:56:33.612Z"}
+{"level":"info","message":{"ip":"::1","method":"GET","url":"/api-docs/swagger-ui-init.js"},"timestamp":"2026-06-18T15:56:33.613Z"}
+{"level":"info","message":{"ip":"::1","method":"POST","url":"/api/auth/register"},"timestamp":"2026-06-18T15:57:16.224Z"}
+{"level":"info","message":"New user registered: pappa@gmail.com","timestamp":"2026-06-18T15:57:16.435Z"}
+{"level":"info","message":{"ip":"::1","method":"POST","url":"/api/auth/login"},"timestamp":"2026-06-18T15:58:08.881Z"}
+{"level":"warn","message":"Failed login attempt for pappa@gmail.com","timestamp":"2026-06-18T15:58:09.029Z"}
+{"level":"info","message":"User logged in: pappa@gmail.com","timestamp":"2026-06-18T15:58:09.039Z"}
+{"level":"error","message":"Cannot set headers after they are sent to the client","method":"POST","route":"/api/auth/login","stack":"Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:647:11)\n    at ServerResponse.header (C:\\Users\\Hp\\Desktop\\Pallavi\\Ai_interview_preperaton\\ai_interview_prep_backend\\node_modules\\express\\lib\\response.js:686:10)\n    at ServerResponse.send (C:\\Users\\Hp\\Desktop\\Pallavi\\Ai_interview_preperaton\\ai_interview_prep_backend\\node_modules\\express\\lib\\response.js:163:12)\n    at ServerResponse.json (C:\\Users\\Hp\\Desktop\\Pallavi\\Ai_interview_preperaton\\ai_interview_prep_backend\\node_modules\\express\\lib\\response.js:252:15)\n    at C:\\Users\\Hp\\Desktop\\Pallavi\\Ai_interview_preperaton\\ai_interview_prep_backend\\src\\controllers\\authController.js:62:7","timestamp":"2026-06-18T15:58:09.042Z"}
+{"level":"info","message":{"ip":"::1","method":"POST","url":"/api/auth/login"},"timestamp":"2026-06-18T15:58:17.754Z"}
+{"level":"info","message":"User logged in: pappa@gmail.com","timestamp":"2026-06-18T15:58:17.892Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-06-19T05:44:03.845Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-06-19T05:44:03.860Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-06-19T05:45:44.388Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-06-19T05:45:44.396Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-06-19T05:47:02.575Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-06-19T05:47:02.585Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-06-19T05:50:01.903Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-06-19T05:50:01.914Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-06-19T05:52:18.406Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-06-19T05:52:18.414Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-06-19T05:53:21.101Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-06-19T05:53:21.108Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-06-19T05:54:43.863Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-06-19T05:54:43.873Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-06-19T05:56:50.966Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-06-19T05:56:50.973Z"}
+{"level":"info","message":{"ip":"::ffff:127.0.0.1","method":"POST","url":"/api/auth/login"},"timestamp":"2026-06-19T05:57:00.992Z"}
+{"level":"info","message":"User logged in: Amma@gmail.com","timestamp":"2026-06-19T05:57:01.173Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-06-19T06:24:16.417Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-06-19T06:24:16.425Z"}
+{"level":"info","message":{"ip":"::ffff:127.0.0.1","method":"POST","url":"/api/"},"timestamp":"2026-06-19T06:25:00.845Z"}
+{"level":"info","message":"Question created","timestamp":"2026-06-19T06:25:00.887Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-06-19T06:31:39.225Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-06-19T06:31:39.234Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-06-19T06:39:22.706Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-06-19T06:39:22.715Z"}
+{"level":"info","message":{"ip":"::ffff:127.0.0.1","method":"POST","url":"/api/"},"timestamp":"2026-06-19T06:41:03.960Z"}
+{"level":"info","message":"Question created","timestamp":"2026-06-19T06:41:04.016Z"}
