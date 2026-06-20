@@ -232,3 +232,69 @@
  *       500:
  *         description: Internal server error
  */
+/**
+ * @swagger
+ * /api/questions/generate:
+ *   post:
+ *     summary: Generate interview questions using AI
+ *     tags:
+ *       - Questions
+ *     security:
+ *       - bearerAuth: []
+ *     requestBody:
+ *       required: true
+ *       content:
+ *         application/json:
+ *           schema:
+ *             type: object
+ *             required:
+ *               - skill
+ *               - difficulty
+ *               - count
+ *             properties:
+ *               skill:
+ *                 type: string
+ *                 example: NodeJS
+ *               difficulty:
+ *                 type: string
+ *                 enum:
+ *                   - Easy
+ *                   - Medium
+ *                   - Hard
+ *                 example: Medium
+ *               count:
+ *                 type: integer
+ *                 minimum: 1
+ *                 example: 5
+ *     responses:
+ *       200:
+ *         description: Questions generated successfully
+ *         content:
+ *           application/json:
+ *             schema:
+ *               type: object
+ *               properties:
+ *                 success:
+ *                   type: boolean
+ *                   example: true
+ *                 data:
+ *                   type: array
+ *                   items:
+ *                     type: object
+ *                     properties:
+ *                       title:
+ *                         type: string
+ *                         example: What is JWT?
+ *                       description:
+ *                         type: string
+ *                         example: Explain the purpose of JWT in authentication.
+ *                       difficulty:
+ *                         type: string
+ *                         example: Medium
+ *       400:
+ *         description: Invalid request data
+ *       401:
+ *         description: Unauthorized
+ *       500:
+ *         description: Internal server error
+ */
