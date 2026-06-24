@@ -8,7 +8,7 @@ const authRoutes = require("./routes/authRoutes");
 const aiRoutes = require("./routes/aiRoutes");
 const questionRoutes = require("./routes/questionRoutes");
 const swaggerUi = require("swagger-ui-express");
-
+const resumeRoutes = require("./routes/resumeRoutes");
 const swaggerSpec = require("./config/swagger");
 
 const app = express();
@@ -20,6 +20,7 @@ app.use(requestLogger);
 app.use("/api/auth", authRoutes);
 app.use("/api", questionRoutes);
 app.use("/api/questions", aiRoutes);
+app.use("/api/resume", resumeRoutes);
 app.use(
   "/api-docs",
 

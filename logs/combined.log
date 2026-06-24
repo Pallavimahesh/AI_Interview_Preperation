@@ -374,3 +374,70 @@
 {"level":"info","message":"Database Connected","timestamp":"2026-06-20T14:14:26.965Z"}
 {"level":"info","message":"Server running on port 5000","timestamp":"2026-06-20T14:14:26.976Z"}
 {"level":"info","message":{"ip":"::1","method":"POST","url":"/api/questions/generate"},"timestamp":"2026-06-20T14:14:28.391Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-06-20T14:16:55.287Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-06-20T14:16:55.303Z"}
+{"level":"info","message":{"ip":"::1","method":"POST","url":"/api/auth/login"},"timestamp":"2026-06-20T14:17:04.272Z"}
+{"level":"info","message":"User logged in: Amma@gmail.com","timestamp":"2026-06-20T14:17:04.450Z"}
+{"level":"info","message":{"ip":"::1","method":"POST","url":"/api/questions/generate"},"timestamp":"2026-06-20T14:17:12.754Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-06-20T14:43:44.011Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-06-20T14:43:44.021Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-06-20T14:44:11.709Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-06-20T14:44:11.716Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-06-21T13:45:37.359Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-06-21T13:45:37.370Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-06-21T13:45:59.402Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-06-21T13:45:59.413Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-06-21T14:01:30.969Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-06-21T14:01:30.978Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-06-22T14:22:47.416Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-06-22T14:22:47.438Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-06-22T14:28:21.345Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-06-22T14:28:21.356Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-06-22T14:29:07.885Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-06-22T14:29:07.894Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-06-22T14:30:48.141Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-06-22T14:30:48.151Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-06-24T12:55:46.282Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-06-24T12:55:46.291Z"}
+{"level":"info","message":{"ip":"::1","method":"GET","url":"/api-docs/"},"timestamp":"2026-06-24T12:58:14.299Z"}
+{"level":"info","message":{"ip":"::1","method":"GET","url":"/api-docs/swagger-ui-standalone-preset.js"},"timestamp":"2026-06-24T12:58:14.346Z"}
+{"level":"info","message":{"ip":"::1","method":"GET","url":"/api-docs/swagger-ui.css"},"timestamp":"2026-06-24T12:58:14.350Z"}
+{"level":"info","message":{"ip":"::1","method":"GET","url":"/api-docs/swagger-ui-bundle.js"},"timestamp":"2026-06-24T12:58:14.352Z"}
+{"level":"info","message":{"ip":"::1","method":"GET","url":"/api-docs/swagger-ui-init.js"},"timestamp":"2026-06-24T12:58:14.384Z"}
+{"level":"info","message":{"ip":"::1","method":"POST","url":"/api/resume/upload"},"timestamp":"2026-06-24T13:01:24.156Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-06-24T13:02:11.879Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-06-24T13:02:11.891Z"}
+{"level":"info","message":{"ip":"::1","method":"POST","url":"/api/auth/login"},"timestamp":"2026-06-24T13:03:03.404Z"}
+{"level":"warn","message":"Failed login attempt for Dhanvi@gmial.com","timestamp":"2026-06-24T13:03:03.441Z"}
+{"level":"error","message":"Cannot read properties of null (reading 'password')","method":"POST","route":"/api/auth/login","stack":"TypeError: Cannot read properties of null (reading 'password')\n    at C:\\Users\\Hp\\Desktop\\Pallavi\\Ai_interview_preperaton\\ai_interview_prep_backend\\src\\controllers\\authController.js:41:55\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)","timestamp":"2026-06-24T13:03:03.451Z"}
+{"level":"info","message":{"ip":"::1","method":"POST","url":"/api/auth/login"},"timestamp":"2026-06-24T13:03:54.135Z"}
+{"level":"info","message":"User logged in: Amma@gmail.com","timestamp":"2026-06-24T13:03:54.305Z"}
+{"level":"info","message":{"ip":"::1","method":"POST","url":"/api/resume/upload"},"timestamp":"2026-06-24T13:04:27.329Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-06-24T13:06:40.463Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-06-24T13:06:40.475Z"}
+{"level":"info","message":{"ip":"::1","method":"POST","url":"/api/resume/upload"},"timestamp":"2026-06-24T13:06:57.415Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-06-24T13:07:48.748Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-06-24T13:07:48.760Z"}
+{"level":"info","message":{"ip":"::1","method":"POST","url":"/api/resume/upload"},"timestamp":"2026-06-24T13:07:54.152Z"}
+{"level":"info","message":{"ip":"::1","method":"POST","url":"/api/resume/upload"},"timestamp":"2026-06-24T13:09:27.879Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-06-24T13:13:01.822Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-06-24T13:13:01.832Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-06-24T13:13:46.240Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-06-24T13:13:46.251Z"}
+{"level":"info","message":{"ip":"::1","method":"POST","url":"/api/resume/upload"},"timestamp":"2026-06-24T13:13:47.353Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-06-24T13:15:06.767Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-06-24T13:15:06.777Z"}
+{"level":"info","message":{"ip":"::1","method":"POST","url":"/api/resume/upload"},"timestamp":"2026-06-24T13:15:07.413Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-06-24T13:15:27.335Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-06-24T13:15:27.354Z"}
+{"level":"info","message":{"ip":"::1","method":"POST","url":"/api/resume/upload"},"timestamp":"2026-06-24T13:15:27.414Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-06-24T13:18:38.162Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-06-24T13:18:38.180Z"}
+{"level":"info","message":{"ip":"::1","method":"POST","url":"/api/resume/upload"},"timestamp":"2026-06-24T13:18:40.944Z"}
+{"level":"error","message":"ENOENT: no such file or directory, open 'C:\\Users\\Hp\\Desktop\\Pallavi\\Ai_interview_preperaton\\ai_interview_prep_backend\\uploads\\1782307120966-Pallavi_M.pdf'","method":"POST","route":"/api/resume/upload","stack":"Error: ENOENT: no such file or directory, open 'C:\\Users\\Hp\\Desktop\\Pallavi\\Ai_interview_preperaton\\ai_interview_prep_backend\\uploads\\1782307120966-Pallavi_M.pdf'","timestamp":"2026-06-24T13:18:40.973Z"}
+{"level":"info","message":{"ip":"::1","method":"POST","url":"/api/resume/upload"},"timestamp":"2026-06-24T13:22:24.559Z"}
+{"level":"error","message":"ENOENT: no such file or directory, open 'C:\\Users\\Hp\\Desktop\\Pallavi\\Ai_interview_preperaton\\ai_interview_prep_backend\\uploads\\1782307344563-Pallavi_M.pdf'","method":"POST","route":"/api/resume/upload","stack":"Error: ENOENT: no such file or directory, open 'C:\\Users\\Hp\\Desktop\\Pallavi\\Ai_interview_preperaton\\ai_interview_prep_backend\\uploads\\1782307344563-Pallavi_M.pdf'","timestamp":"2026-06-24T13:22:24.566Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-06-24T13:24:25.008Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-06-24T13:24:25.027Z"}
+{"level":"info","message":{"ip":"::ffff:127.0.0.1","method":"POST","url":"/api/resume/upload"},"timestamp":"2026-06-24T13:24:25.073Z"}
+{"level":"error","message":{"method":"POST","route":"/api/resume/upload"},"timestamp":"2026-06-24T13:24:26.294Z"}

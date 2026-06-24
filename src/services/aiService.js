@@ -30,6 +30,8 @@ Format:
 ]
  `;
   const result = await model.generateContent(prompt);
+  logger.info(`Generating ${count} ${skill} questions`);
+  logger.error(`Gemini API Error: ${error.message}`);
   return result.response.text();
 };
 
