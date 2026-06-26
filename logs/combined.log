@@ -488,3 +488,42 @@
 {"level":"info","message":"Server running on port 5000","timestamp":"2026-06-26T11:13:53.549Z"}
 {"level":"info","message":"Database Connected","timestamp":"2026-06-26T11:14:17.053Z"}
 {"level":"info","message":"Server running on port 5000","timestamp":"2026-06-26T11:14:17.070Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-06-26T11:14:31.618Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-06-26T11:14:31.627Z"}
+{"level":"info","message":{"ip":"::1","method":"POST","url":"/api/resume/upload"},"timestamp":"2026-06-26T11:14:40.483Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-06-26T11:24:43.793Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-06-26T11:24:43.808Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-06-26T11:29:36.754Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-06-26T11:29:36.761Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-06-26T11:33:59.855Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-06-26T11:33:59.865Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-06-26T11:35:38.293Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-06-26T11:35:38.300Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-06-26T11:36:03.091Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-06-26T11:36:03.100Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-06-26T11:36:29.509Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-06-26T11:36:29.518Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-06-26T15:00:10.709Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-06-26T15:00:10.719Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-06-26T15:05:55.742Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-06-26T15:05:55.751Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-06-26T15:06:57.824Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-06-26T15:06:57.831Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-06-26T15:07:46.740Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-06-26T15:07:46.749Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-06-26T15:07:54.189Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-06-26T15:07:54.196Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-06-26T15:19:44.548Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-06-26T15:19:44.558Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-06-26T15:22:40.555Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-06-26T15:22:40.562Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-06-26T15:39:14.090Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-06-26T15:39:14.097Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-06-26T15:41:13.846Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-06-26T15:41:13.854Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-06-26T15:43:12.089Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-06-26T15:43:12.099Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-06-26T15:45:41.383Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-06-26T15:45:41.389Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-06-26T15:52:29.087Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-06-26T15:52:29.101Z"}
