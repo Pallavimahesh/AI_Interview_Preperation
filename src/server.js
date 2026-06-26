@@ -2,7 +2,6 @@ require("dotenv").config();
 const app = require("./app");
 const logger = require("./utils/logger");
 const sequelize = require("./config/database");
-console.log(process.env.JWT_SECRET);
 sequelize
   .sync()
   .then(() => {
