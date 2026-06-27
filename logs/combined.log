@@ -527,3 +527,65 @@
 {"level":"info","message":"Server running on port 5000","timestamp":"2026-06-26T15:45:41.389Z"}
 {"level":"info","message":"Database Connected","timestamp":"2026-06-26T15:52:29.087Z"}
 {"level":"info","message":"Server running on port 5000","timestamp":"2026-06-26T15:52:29.101Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-06-26T15:54:19.689Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-06-26T15:54:19.698Z"}
+{"level":"info","message":{"ip":"::1","method":"POST","url":"/api/resume/upload"},"timestamp":"2026-06-26T15:54:44.628Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-06-27T11:25:31.722Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-06-27T11:25:31.732Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-06-27T11:25:44.291Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-06-27T11:25:44.298Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-06-27T11:26:53.989Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-06-27T11:26:53.998Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-06-27T11:29:27.517Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-06-27T11:29:27.539Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-06-27T11:30:02.870Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-06-27T11:30:02.877Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-06-27T11:32:14.789Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-06-27T11:32:14.800Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-06-27T11:43:10.713Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-06-27T11:43:10.728Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-06-27T11:45:03.322Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-06-27T11:45:03.331Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-06-27T11:52:50.889Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-06-27T11:52:50.902Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-06-27T11:57:08.761Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-06-27T11:57:08.768Z"}
+{"level":"info","message":{"ip":"::1","method":"POST","url":"/api/questions/generate"},"timestamp":"2026-06-27T12:00:54.493Z"}
+{"level":"info","message":{"ip":"::1","method":"POST","url":"/api/auth/login"},"timestamp":"2026-06-27T12:01:43.530Z"}
+{"level":"info","message":"User logged in: Amma@gmail.com","timestamp":"2026-06-27T12:01:43.825Z"}
+{"level":"info","message":{"ip":"::1","method":"POST","url":"/api/questions/generate"},"timestamp":"2026-06-27T12:02:35.813Z"}
+{"level":"error","message":"buildResumePrompt is not defined","method":"POST","route":"/api/questions/generate","stack":"ReferenceError: buildResumePrompt is not defined\n    at exports.generateQuestions (C:\\Users\\Hp\\Desktop\\Pallavi\\Ai_interview_preperaton\\ai_interview_prep_backend\\src\\controllers\\aiController.js:19:5)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)","timestamp":"2026-06-27T12:02:35.888Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-06-27T12:05:16.794Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-06-27T12:05:16.811Z"}
+{"level":"info","message":{"ip":"::1","method":"POST","url":"/api/questions/generate"},"timestamp":"2026-06-27T12:05:22.642Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'years')","method":"POST","route":"/api/questions/generate","stack":"TypeError: Cannot read properties of undefined (reading 'years')\n    at exports.buildResumePrompt (C:\\Users\\Hp\\Desktop\\Pallavi\\Ai_interview_preperaton\\ai_interview_prep_backend\\src\\services\\promptBuilder.js:13:23)\n    at exports.generateQuestions (C:\\Users\\Hp\\Desktop\\Pallavi\\Ai_interview_preperaton\\ai_interview_prep_backend\\src\\controllers\\aiController.js:23:14)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)","timestamp":"2026-06-27T12:05:22.669Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-06-27T12:15:41.537Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-06-27T12:15:41.550Z"}
+{"level":"info","message":{"ip":"::1","method":"POST","url":"/api/questions/generate"},"timestamp":"2026-06-27T12:17:02.748Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'years')","method":"POST","route":"/api/questions/generate","stack":"TypeError: Cannot read properties of undefined (reading 'years')\n    at exports.buildResumePrompt (C:\\Users\\Hp\\Desktop\\Pallavi\\Ai_interview_preperaton\\ai_interview_prep_backend\\src\\services\\promptBuilder.js:13:23)\n    at exports.generateQuestions (C:\\Users\\Hp\\Desktop\\Pallavi\\Ai_interview_preperaton\\ai_interview_prep_backend\\src\\controllers\\aiController.js:25:14)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)","timestamp":"2026-06-27T12:17:02.794Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-06-27T12:18:58.127Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-06-27T12:18:58.146Z"}
+{"level":"info","message":{"ip":"::1","method":"POST","url":"/api/questions/generate"},"timestamp":"2026-06-27T12:19:03.999Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'skills')","method":"POST","route":"/api/questions/generate","stack":"TypeError: Cannot read properties of undefined (reading 'skills')\n    at exports.buildResumePrompt (C:\\Users\\Hp\\Desktop\\Pallavi\\Ai_interview_preperaton\\ai_interview_prep_backend\\src\\services\\promptBuilder.js:2:27)\n    at exports.generateQuestions (C:\\Users\\Hp\\Desktop\\Pallavi\\Ai_interview_preperaton\\ai_interview_prep_backend\\src\\controllers\\aiController.js:27:14)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)","timestamp":"2026-06-27T12:19:04.044Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-06-27T12:24:54.022Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-06-27T12:24:54.030Z"}
+{"level":"info","message":{"ip":"::1","method":"POST","url":"/api/questions/generate"},"timestamp":"2026-06-27T12:24:58.135Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'skills')","method":"POST","route":"/api/questions/generate","stack":"TypeError: Cannot read properties of undefined (reading 'skills')\n    at exports.buildResumePrompt (C:\\Users\\Hp\\Desktop\\Pallavi\\Ai_interview_preperaton\\ai_interview_prep_backend\\src\\services\\promptBuilder.js:2:27)\n    at exports.generateQuestions (C:\\Users\\Hp\\Desktop\\Pallavi\\Ai_interview_preperaton\\ai_interview_prep_backend\\src\\controllers\\aiController.js:33:14)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)","timestamp":"2026-06-27T12:24:58.176Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-06-27T12:27:35.107Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-06-27T12:27:35.117Z"}
+{"level":"info","message":{"ip":"::1","method":"POST","url":"/api/questions/generate"},"timestamp":"2026-06-27T12:27:36.828Z"}
+{"level":"error","message":"logger is not defined","method":"POST","route":"/api/questions/generate","stack":"ReferenceError: logger is not defined\n    at Object.generateQuestions (C:\\Users\\Hp\\Desktop\\Pallavi\\Ai_interview_preperaton\\ai_interview_prep_backend\\src\\services\\generateQuestionAiService.js:12:3)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async exports.generateQuestions (C:\\Users\\Hp\\Desktop\\Pallavi\\Ai_interview_preperaton\\ai_interview_prep_backend\\src\\controllers\\aiController.js:37:18)","timestamp":"2026-06-27T12:27:49.478Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-06-27T12:29:27.497Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-06-27T12:29:27.506Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-06-27T12:56:14.247Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-06-27T12:56:14.258Z"}
+{"level":"info","message":{"ip":"::1","method":"POST","url":"/api/questions/generate"},"timestamp":"2026-06-27T12:56:19.752Z"}
+{"level":"error","message":"skill is not defined","method":"POST","route":"/api/questions/generate","stack":"ReferenceError: skill is not defined\n    at Object.generateQuestions (C:\\Users\\Hp\\Desktop\\Pallavi\\Ai_interview_preperaton\\ai_interview_prep_backend\\src\\services\\generateQuestionAiService.js:12:38)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async exports.generateQuestions (C:\\Users\\Hp\\Desktop\\Pallavi\\Ai_interview_preperaton\\ai_interview_prep_backend\\src\\controllers\\aiController.js:30:18)","timestamp":"2026-06-27T12:56:29.137Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-06-27T12:57:19.304Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-06-27T12:57:19.311Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-06-27T13:02:19.298Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-06-27T13:02:19.310Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-06-27T13:02:45.377Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-06-27T13:02:45.389Z"}
+{"level":"info","message":{"ip":"::1","method":"POST","url":"/api/questions/generate"},"timestamp":"2026-06-27T13:02:50.853Z"}
+{"level":"error","message":"count is not defined","method":"POST","route":"/api/questions/generate","stack":"ReferenceError: count is not defined\n    at generateQuestions (C:\\Users\\Hp\\Desktop\\Pallavi\\Ai_interview_preperaton\\ai_interview_prep_backend\\src\\services\\generateQuestionAiService.js:11:29)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async exports.generateQuestions (C:\\Users\\Hp\\Desktop\\Pallavi\\Ai_interview_preperaton\\ai_interview_prep_backend\\src\\controllers\\aiController.js:30:18)","timestamp":"2026-06-27T13:03:00.825Z"}

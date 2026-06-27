@@ -1,9 +1,9 @@
-const questionPrompt = (skills, experience, count) => `
+const questionPrompt = (skill, difficulty, count) => `
 Act as a Senior Software Engineer.
 
-Generate ${count} interview questions on each ${skills} .
+Generate ${count} interview questions on each ${skill} .
 
-Based on ${experience}.
+Based on ${difficulty}.
 
 Requirements:
 - Real interview style
