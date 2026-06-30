@@ -7,6 +7,7 @@ const model = genAi.getGenerativeModel({
   model: "gemini-3.5-flash",
 });
 const generateQuestions = async (prompt) => {
+  logger.info(`Inside the aiservice`);
   const result = await model.generateContent(prompt);
   logger.info(`Generated questions according to prompt`);
   return result.response.text();

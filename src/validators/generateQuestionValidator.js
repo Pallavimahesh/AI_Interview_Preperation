@@ -12,4 +12,5 @@ exports.generateQuestionValidation = [
   body("resumeId").optional().isInt(),
 
   body("skill").optional().isString(),
+  body("user_id").isInt(),
 ];
