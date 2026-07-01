@@ -21,6 +21,10 @@ const InterviewAnswers = sequelize.define("interview_answers", {
     type: DataTypes.JSON,
     allowNull: false,
   },
+  score: {
+    type: DataTypes.INTEGER,
+    allowNull: false,
+  },
 });
 
 module.exports = InterviewAnswers;

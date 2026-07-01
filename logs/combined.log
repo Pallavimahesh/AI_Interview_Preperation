@@ -739,3 +739,122 @@
 {"level":"info","message":{"ip":"::1","method":"POST","url":"/api/questions/generate"},"timestamp":"2026-06-30T16:53:52.946Z"}
 {"level":"info","message":"Inside the aiservice","timestamp":"2026-06-30T16:53:52.989Z"}
 {"level":"info","message":"Generated questions according to prompt","timestamp":"2026-06-30T16:54:25.802Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-06-30T17:01:26.623Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-06-30T17:01:26.632Z"}
+{"level":"info","message":{"ip":"::1","method":"POST","url":"/api/questions/generate"},"timestamp":"2026-06-30T17:03:41.763Z"}
+{"level":"info","message":"Inside the aiservice","timestamp":"2026-06-30T17:03:41.808Z"}
+{"level":"info","message":{"ip":"::1","method":"POST","url":"/api/questions/generate"},"timestamp":"2026-06-30T17:05:05.038Z"}
+{"level":"info","message":"Inside the aiservice","timestamp":"2026-06-30T17:05:05.057Z"}
+{"level":"info","message":{"ip":"::1","method":"POST","url":"/api/questions/generate"},"timestamp":"2026-06-30T17:09:54.658Z"}
+{"level":"info","message":"Inside the aiservice","timestamp":"2026-06-30T17:09:54.682Z"}
+{"level":"info","message":{"ip":"::1","method":"POST","url":"/api/questions/generate"},"timestamp":"2026-07-01T05:04:55.842Z"}
+{"level":"info","message":"Inside the aiservice","timestamp":"2026-07-01T05:04:55.868Z"}
+{"level":"info","message":"Generated questions according to prompt","timestamp":"2026-07-01T05:05:05.189Z"}
+{"level":"info","message":{"ip":"::1","method":"POST","url":"/api/questions/generate"},"timestamp":"2026-07-01T05:15:26.969Z"}
+{"level":"info","message":"Inside the aiservice","timestamp":"2026-07-01T05:15:26.987Z"}
+{"level":"info","message":"Generated questions according to prompt","timestamp":"2026-07-01T05:15:33.158Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-07-01T05:19:48.341Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-07-01T05:19:48.356Z"}
+{"level":"info","message":{"ip":"::1","method":"GET","url":"/api-docs/"},"timestamp":"2026-07-01T05:20:08.493Z"}
+{"level":"info","message":{"ip":"::1","method":"GET","url":"/api-docs/swagger-ui-bundle.js"},"timestamp":"2026-07-01T05:20:08.527Z"}
+{"level":"info","message":{"ip":"::1","method":"GET","url":"/api-docs/swagger-ui-standalone-preset.js"},"timestamp":"2026-07-01T05:20:08.531Z"}
+{"level":"info","message":{"ip":"::1","method":"GET","url":"/api-docs/swagger-ui.css"},"timestamp":"2026-07-01T05:20:08.542Z"}
+{"level":"info","message":{"ip":"::1","method":"GET","url":"/api-docs/swagger-ui-init.js"},"timestamp":"2026-07-01T05:20:08.562Z"}
+{"level":"info","message":{"ip":"::1","method":"POST","url":"/api/auth/login"},"timestamp":"2026-07-01T05:20:56.350Z"}
+{"level":"info","message":"User logged in: Amma@gmail.com","timestamp":"2026-07-01T05:20:56.544Z"}
+{"level":"info","message":{"ip":"::1","method":"POST","url":"/api/interview/submit-answer"},"timestamp":"2026-07-01T05:22:37.108Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-07-01T05:25:28.220Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-07-01T05:25:28.234Z"}
+{"level":"info","message":{"ip":"::1","method":"POST","url":"/api/interview/submit-answer"},"timestamp":"2026-07-01T05:25:43.431Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-07-01T05:26:31.715Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-07-01T05:26:31.735Z"}
+{"level":"info","message":{"ip":"::1","method":"POST","url":"/api/interview/submit-answer"},"timestamp":"2026-07-01T05:26:34.735Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-07-01T05:27:55.691Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-07-01T05:27:55.699Z"}
+{"level":"info","message":{"ip":"::1","method":"POST","url":"/api/interview/submit-answer"},"timestamp":"2026-07-01T05:28:01.231Z"}
+{"level":"error","message":"model is not defined","method":"POST","route":"/api/interview/submit-answer","stack":"ReferenceError: model is not defined\n    at evaluateAnswer (C:\\Users\\Hp\\Desktop\\Pallavi\\Ai_interview_preperaton\\ai_interview_prep_backend\\src\\services\\evaluateAnswerAiService.js:5:18)\n    at exports.submitAnswer (C:\\Users\\Hp\\Desktop\\Pallavi\\Ai_interview_preperaton\\ai_interview_prep_backend\\src\\controllers\\answerController.js:16:28)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)","timestamp":"2026-07-01T05:28:01.306Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-07-01T05:28:36.552Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-07-01T05:28:36.567Z"}
+{"level":"info","message":{"ip":"::1","method":"POST","url":"/api/interview/submit-answer"},"timestamp":"2026-07-01T05:28:46.645Z"}
+{"level":"error","message":"model is not defined","method":"POST","route":"/api/interview/submit-answer","stack":"ReferenceError: model is not defined\n    at evaluateAnswer (C:\\Users\\Hp\\Desktop\\Pallavi\\Ai_interview_preperaton\\ai_interview_prep_backend\\src\\services\\evaluateAnswerAiService.js:5:18)\n    at exports.submitAnswer (C:\\Users\\Hp\\Desktop\\Pallavi\\Ai_interview_preperaton\\ai_interview_prep_backend\\src\\controllers\\answerController.js:16:28)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)","timestamp":"2026-07-01T05:28:46.679Z"}
+{"level":"info","message":{"ip":"::1","method":"POST","url":"/api/interview/submit-answer"},"timestamp":"2026-07-01T05:28:50.574Z"}
+{"level":"error","message":"model is not defined","method":"POST","route":"/api/interview/submit-answer","stack":"ReferenceError: model is not defined\n    at evaluateAnswer (C:\\Users\\Hp\\Desktop\\Pallavi\\Ai_interview_preperaton\\ai_interview_prep_backend\\src\\services\\evaluateAnswerAiService.js:5:18)\n    at exports.submitAnswer (C:\\Users\\Hp\\Desktop\\Pallavi\\Ai_interview_preperaton\\ai_interview_prep_backend\\src\\controllers\\answerController.js:16:28)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)","timestamp":"2026-07-01T05:28:50.581Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-07-01T05:31:24.542Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-07-01T05:31:24.550Z"}
+{"level":"info","message":{"ip":"::1","method":"POST","url":"/api/interview/submit-answer"},"timestamp":"2026-07-01T05:31:26.752Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-07-01T05:33:44.176Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-07-01T05:33:44.191Z"}
+{"level":"info","message":{"ip":"::1","method":"POST","url":"/api/interview/submit-answer"},"timestamp":"2026-07-01T05:37:23.919Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-07-01T05:46:34.803Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-07-01T05:46:34.815Z"}
+{"level":"info","message":{"ip":"::1","method":"POST","url":"/api/questions/generate"},"timestamp":"2026-07-01T05:50:38.915Z"}
+{"level":"info","message":"Inside the aiservice","timestamp":"2026-07-01T05:50:38.973Z"}
+{"level":"info","message":"Generated questions according to prompt","timestamp":"2026-07-01T05:50:46.959Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-07-01T05:51:28.532Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-07-01T05:51:28.544Z"}
+{"level":"info","message":{"ip":"::1","method":"POST","url":"/api/questions/generate"},"timestamp":"2026-07-01T05:51:34.858Z"}
+{"level":"info","message":"Inside the aiservice","timestamp":"2026-07-01T05:51:34.967Z"}
+{"level":"info","message":"Generated questions according to prompt","timestamp":"2026-07-01T05:52:01.309Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-07-01T10:24:38.426Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-07-01T10:24:38.436Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-07-01T10:37:14.289Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-07-01T10:37:14.305Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-07-01T10:38:20.971Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-07-01T10:38:20.979Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-07-01T10:38:28.622Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-07-01T10:38:28.631Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-07-01T10:42:45.086Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-07-01T10:42:45.095Z"}
+{"level":"info","message":{"ip":"::1","method":"GET","url":"/api-docs/"},"timestamp":"2026-07-01T10:42:58.606Z"}
+{"level":"info","message":{"ip":"::1","method":"GET","url":"/api-docs/swagger-ui-bundle.js"},"timestamp":"2026-07-01T10:42:58.650Z"}
+{"level":"info","message":{"ip":"::1","method":"GET","url":"/api-docs/swagger-ui-standalone-preset.js"},"timestamp":"2026-07-01T10:42:58.652Z"}
+{"level":"info","message":{"ip":"::1","method":"GET","url":"/api-docs/swagger-ui.css"},"timestamp":"2026-07-01T10:42:58.657Z"}
+{"level":"info","message":{"ip":"::1","method":"GET","url":"/api-docs/swagger-ui-init.js"},"timestamp":"2026-07-01T10:42:58.692Z"}
+{"level":"info","message":{"ip":"::1","method":"POST","url":"/api/auth/login"},"timestamp":"2026-07-01T10:43:45.716Z"}
+{"level":"info","message":"User logged in: Amma@gmail.com","timestamp":"2026-07-01T10:43:46.026Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-07-01T10:44:02.581Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-07-01T10:44:02.593Z"}
+{"level":"info","message":{"ip":"::1","method":"POST","url":"/api/interview/complete-session"},"timestamp":"2026-07-01T10:45:46.187Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-07-01T10:51:29.324Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-07-01T10:51:29.332Z"}
+{"level":"info","message":{"ip":"::1","method":"POST","url":"/api/interview/complete-session"},"timestamp":"2026-07-01T10:51:40.056Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-07-01T10:53:10.525Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-07-01T10:53:10.534Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-07-01T10:55:23.706Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-07-01T10:55:23.719Z"}
+{"level":"info","message":{"ip":"::1","method":"POST","url":"/api/interview/complete-session"},"timestamp":"2026-07-01T10:55:24.358Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-07-01T10:56:56.699Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-07-01T10:56:56.711Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-07-01T11:00:44.345Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-07-01T11:00:44.354Z"}
+{"level":"info","message":{"ip":"::1","method":"POST","url":"/api/interview/complete-session"},"timestamp":"2026-07-01T11:00:53.010Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-07-01T11:03:01.265Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-07-01T11:03:01.278Z"}
+{"level":"info","message":{"ip":"::1","method":"POST","url":"/api/interview/complete-session"},"timestamp":"2026-07-01T11:03:02.515Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-07-01T11:04:08.703Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-07-01T11:04:08.714Z"}
+{"level":"info","message":{"ip":"::1","method":"POST","url":"/api/interview/complete-session"},"timestamp":"2026-07-01T11:04:10.263Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-07-01T11:09:16.564Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-07-01T11:09:16.571Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-07-01T11:09:24.105Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-07-01T11:09:24.115Z"}
+{"level":"info","message":{"ip":"::1","method":"POST","url":"/api/interview/complete-session"},"timestamp":"2026-07-01T11:09:29.920Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-07-01T11:09:54.097Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-07-01T11:09:54.108Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-07-01T11:12:23.694Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-07-01T11:12:23.721Z"}
+{"level":"info","message":{"ip":"::1","method":"POST","url":"/api/interview/complete-session"},"timestamp":"2026-07-01T11:12:29.473Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-07-01T11:13:07.801Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-07-01T11:13:07.809Z"}
+{"level":"info","message":{"ip":"::1","method":"POST","url":"/api/interview/complete-session"},"timestamp":"2026-07-01T11:13:08.190Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-07-01T11:13:36.437Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-07-01T11:13:36.448Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-07-01T11:14:45.430Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-07-01T11:14:45.439Z"}
+{"level":"info","message":{"ip":"::1","method":"POST","url":"/api/interview/complete-session"},"timestamp":"2026-07-01T11:14:53.258Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-07-01T11:18:48.820Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-07-01T11:18:48.833Z"}
+{"level":"info","message":{"ip":"::1","method":"POST","url":"/api/interview/complete-session"},"timestamp":"2026-07-01T11:18:48.921Z"}
+{"level":"info","message":"Database Connected","timestamp":"2026-07-01T13:43:22.405Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-07-01T13:43:22.415Z"}
+{"level":"info","message":{"ip":"::1","method":"POST","url":"/api/interview/complete-session"},"timestamp":"2026-07-01T13:43:31.253Z"}

@@ -45,6 +45,7 @@ exports.generateQuestions = async (req, res) => {
         question_count: count,
 
         status: "IN_PROGRESS",
+        started_at: new Date(),
       },
       { transaction },
     );

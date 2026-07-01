@@ -1,3 +1,10 @@
+require("dotenv").config();
+const logger = require("../utils/logger");
+const { GoogleGenerativeAI } = require("@google/generative-ai");
+const genAi = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
+const model = genAi.getGenerativeModel({
+  model: "gemini-3.5-flash",
+});
 const evaluationPrompt = require("../prompts/evaluationPromt");
 const evaluateAnswer = async (question, answer, skill, difficulty) => {
   const prompt = evaluationPrompt(question, answer, skill, difficulty);

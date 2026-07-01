@@ -3,9 +3,9 @@ const InterviewAnswers = require("../models/InterviewAnswers");
 const evaluateAnswer = require("../services/evaluateAnswerAiService");
 exports.submitAnswer = async (req, res) => {
   const { questionId, answer } = req.body;
-
+  console.log("hii");
   const question = await InterviewQuestions.findByPk(questionId);
-
+  console.log(question);
   if (!question) {
     return res.status(404).json({
       success: false,
@@ -20,7 +20,7 @@ exports.submitAnswer = async (req, res) => {
     question.difficulty,
   );
 
-  const savedAnswer = await InterviewAnswer.create({
+  const savedAnswer = await InterviewAnswers.create({
     question_id: questionId,
 
     user_answer: answer,
